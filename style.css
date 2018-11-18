@@ -1,0 +1,164 @@
+ body
+    {
+      font-family: "Open Sans", sans-serif;
+      color: firebrick;
+      background-color: lightgray;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      
+    }
+
+
+   p{
+      color: #40403E;
+      text-align: justify;
+    }
+
+
+   a{
+      text-decoration: none; 
+    }
+
+
+a:hover
+    {
+      text-decoration: underline;
+    }
+
+
+.wiki
+    {
+      float: right;
+      font-size: 11px;
+      font-style: italic;
+      padding-right: 10px;
+    }
+
+
+.logo
+    {
+      
+      top: 50px;
+      margin: 0px auto 0px auto;
+      width: auto;
+      max-width: 100%;
+      height: 280px;
+      background: rgba(0,0,0,0.5);
+    }
+
+
+
+.logo img
+   {
+      display: block;
+      max-width: 100%;
+      height: 120px;
+      margin: auto;
+      padding-top: 100px;
+      
+      
+   }
+
+
+.page
+    {
+      background-color: #FFFFF8 ;
+      max-width: 960px;
+      height: auto;
+      margin: auto;
+      margin-bottom: 50px;
+      border-radius: 0px 0px 10px 10px;
+      overflow: auto;
+      padding-bottom: 10px;
+     
+      
+      
+    }
+
+
+.menu
+    {
+      position: relative;
+      float: left;
+      max-width: 150px;
+      min-width: 150px;
+      height: 170px;
+      margin: auto;
+    }
+
+.menu a
+    {
+      color: #40403E;
+      font-size: 18px;
+      font-style: bold;
+      font-weight: bolder;
+      
+      margin: auto;
+    }
+
+
+.header
+    {
+      position: fixed;
+      background-color: #000000;
+      color: lightgray;
+      margin: auto;
+      width: 100%;
+      height: 40px;
+      z-index: 1;
+      
+      
+    }
+
+
+.header a
+    {
+      color: lightgray;
+      padding: 29px;
+    }
+
+
+.header div
+    {
+      width: 580px;
+      padding-top: 10px;
+      margin: auto;
+    }
+
+
+.content
+    {
+      position: relative;
+      float: left;
+      max-width: 760px;
+      height: auto;
+    }
+
+
+.footer
+    {
+      background-color: #40403E;
+      color: lightgray;
+      margin: auto;
+      max-width: 100%;
+      height: 150px;
+      border-radius: 10px 10px 0px 0px;
+      background: rgba(0,0,0,0.8);
+    }
+
+
+.footer a
+    {
+      color: lightgray;
+      padding: 30px;
+    }
+
+
+.footer div
+    {
+      width: 580px;
+      padding-top: 10px;
+      margin: auto;
+    }
